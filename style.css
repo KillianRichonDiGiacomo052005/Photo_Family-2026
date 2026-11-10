@@ -1,0 +1,35 @@
+* {
+    font-family: "League Gothic", sans-serif;
+    margin: 0;
+    background-image: url(assets/images/photo_family.jpg);
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    
+}
+
+a {
+    text-decoration: none;
+     color:#6E501D;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#C0C5BF;
+    color:
+    
+}
+
+nav a {
+    margin: 8px;
+}
+
+h1 {
+    color: #6E501D;
+}
+
+.section_01 {
+    
+}
