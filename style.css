@@ -1,15 +1,19 @@
 * {
     font-family: "League Gothic", sans-serif;
     margin: 0;
-    background-image: url(assets/images/photo_family.jpg);
-    background-size: 1300px;
-    background-repeat: no-repeat;
+    
+    
     
 }
 
 a {
     text-decoration: none;
      color:#6E501D;
+    
+}
+.container {
+    width: 1040px;
+    margin: auto;
 }
 
 
@@ -18,18 +22,48 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color:#C0C5BF;
-    color:
+   
     
+}
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+.herotitle {
+        font-size: 3.5em;
+            margin-bottom: 24px;
+}
+.button {
+    background-color:#6E501D;
+    padding: 10px;
+    color: white;
+        margin-right: 18px;
+}
+.button_2 {
+    background-color: white;
+    color: #6E501D;
 }
 
 nav a {
     margin: 8px;
+    font-size: 1.8em;
+    padding: 10px;
+
 }
 
 h1 {
     color: #6E501D;
+    font-size: 60px;
+    padding: 25px;
 }
 
-.section_01 {
-    
-}
+.nombre_01 {
+    background-image: url(assets/images/photo_family.jpg);
+    background-size: cover;
+    padding: 5px;
+    font-size: 20px;
+    height: 90vh;
+    background-repeat:no-repeat;
+}   
+
