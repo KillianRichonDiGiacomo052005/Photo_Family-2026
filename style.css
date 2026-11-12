@@ -17,22 +17,25 @@ a {
 }
 
 
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color:#C0C5BF;
-   
+    position: sticky;
+    top: 0;
+   z-index: 100;
     
 }
 .hero {
-    height: 90vh;
+    height: 70vh;
     display: flex;
     align-items: center;
 }
 .herotitle {
         font-size: 3.5em;
-            margin-bottom: 24px;
+        margin-bottom: 24px;
 }
 .button {
     background-color:#6E501D;
@@ -67,3 +70,39 @@ h1 {
     background-repeat:no-repeat;
 }   
 
+.container_mid {
+    max-width: 80%;
+    margin: 0;
+    margin: auto;
+            
+}
+
+.mariage {
+img {
+    width: 100%;
+}
+border: solid 5px;
+flex-wrap: wrap;
+width: 40VH;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.avis_client 
+
+
+.portrait {
+img {
+    width: 100%; 
+}
+flex-wrap: wrap;
+border:solid 5px
+width: 40VH;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+
+}
+    
